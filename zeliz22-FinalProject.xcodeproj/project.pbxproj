@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847EF4392D5556D300D525C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF4382D5556D300D525C5 /* AppDelegate.swift */; };
+		847EF43B2D5556D300D525C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF43A2D5556D300D525C5 /* SceneDelegate.swift */; };
+		847EF43D2D5556D300D525C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF43C2D5556D300D525C5 /* ViewController.swift */; };
+		847EF4402D5556D300D525C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EF43E2D5556D300D525C5 /* Main.storyboard */; };
+		847EF4432D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847EF4412D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodeld */; };
+		847EF4452D5556DA00D525C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EF4442D5556DA00D525C5 /* Assets.xcassets */; };
+		847EF4482D5556DA00D525C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EF4462D5556DA00D525C5 /* LaunchScreen.storyboard */; };
+		847EF4592D55594000D525C5 /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF4572D55594000D525C5 /* City+CoreDataClass.swift */; };
+		847EF45A2D55594000D525C5 /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF4582D55594000D525C5 /* City+CoreDataProperties.swift */; };
+		847EF45D2D55624C00D525C5 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF45C2D55624C00D525C5 /* CityCell.swift */; };
+		847EF4602D56A49300D525C5 /* PagingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF45F2D56A49300D525C5 /* PagingFlowLayout.swift */; };
+		847EF4622D56C02D00D525C5 /* AddNewCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EF4612D56C02D00D525C5 /* AddNewCityViewController.swift */; };
+		84821C372D6D518500713274 /* collectionViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84821C362D6D518500713274 /* collectionViewHandler.swift */; };
+		84821C392D6D5C5400713274 /* WeatherLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84821C382D6D5C5400713274 /* WeatherLocationManager.swift */; };
+		84821C3C2D6D664600713274 /* CityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84821C3B2D6D664600713274 /* CityManager.swift */; };
+		84821C422D6D687E00713274 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84821C412D6D687E00713274 /* UIManager.swift */; };
+		84821C492D6D74CD00713274 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 84821C482D6D74CD00713274 /* Kingfisher */; };
+		848437032D6A1EE500CDD1A3 /* FiveDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848437022D6A1EE500CDD1A3 /* FiveDayViewController.swift */; };
+		848437052D6B8FEB00CDD1A3 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848437042D6B8FEB00CDD1A3 /* ErrorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		847EF4352D5556D300D525C5 /* zeliz22-FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zeliz22-FinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847EF4382D5556D300D525C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847EF43A2D5556D300D525C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847EF43C2D5556D300D525C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		847EF43F2D5556D300D525C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847EF4422D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zeliz22_FinalProject.xcdatamodel; sourceTree = "<group>"; };
+		847EF4442D5556DA00D525C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847EF4472D5556DA00D525C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847EF4492D5556DA00D525C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EF4572D55594000D525C5 /* City+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		847EF4582D55594000D525C5 /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		847EF45C2D55624C00D525C5 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		847EF45F2D56A49300D525C5 /* PagingFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingFlowLayout.swift; sourceTree = "<group>"; };
+		847EF4612D56C02D00D525C5 /* AddNewCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCityViewController.swift; sourceTree = "<group>"; };
+		84821C362D6D518500713274 /* collectionViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewHandler.swift; sourceTree = "<group>"; };
+		84821C382D6D5C5400713274 /* WeatherLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationManager.swift; sourceTree = "<group>"; };
+		84821C3B2D6D664600713274 /* CityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityManager.swift; sourceTree = "<group>"; };
+		84821C412D6D687E00713274 /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		848437022D6A1EE500CDD1A3 /* FiveDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayViewController.swift; sourceTree = "<group>"; };
+		848437042D6B8FEB00CDD1A3 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847EF4322D5556D300D525C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84821C492D6D74CD00713274 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847EF42C2D5556D300D525C5 = {
+			isa = PBXGroup;
+			children = (
+				847EF4572D55594000D525C5 /* City+CoreDataClass.swift */,
+				847EF4582D55594000D525C5 /* City+CoreDataProperties.swift */,
+				847EF4372D5556D300D525C5 /* zeliz22-FinalProject */,
+				847EF4362D5556D300D525C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847EF4362D5556D300D525C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847EF4352D5556D300D525C5 /* zeliz22-FinalProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847EF4372D5556D300D525C5 /* zeliz22-FinalProject */ = {
+			isa = PBXGroup;
+			children = (
+				84821C432D6D695F00713274 /* collectionView */,
+				84821C402D6D686A00713274 /* UIManager */,
+				84821C3E2D6D683A00713274 /* cityManager */,
+				84821C3A2D6D621800713274 /* locationManager */,
+				84821C342D6D515300713274 /* controllers */,
+				847EF45E2D56A46000D525C5 /* Layout */,
+				847EF4382D5556D300D525C5 /* AppDelegate.swift */,
+				847EF43A2D5556D300D525C5 /* SceneDelegate.swift */,
+				847EF43C2D5556D300D525C5 /* ViewController.swift */,
+				847EF43E2D5556D300D525C5 /* Main.storyboard */,
+				847EF4442D5556DA00D525C5 /* Assets.xcassets */,
+				847EF4462D5556DA00D525C5 /* LaunchScreen.storyboard */,
+				847EF4492D5556DA00D525C5 /* Info.plist */,
+				847EF4412D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodeld */,
+			);
+			path = "zeliz22-FinalProject";
+			sourceTree = "<group>";
+		};
+		847EF45E2D56A46000D525C5 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				847EF45F2D56A49300D525C5 /* PagingFlowLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		84821C342D6D515300713274 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848437042D6B8FEB00CDD1A3 /* ErrorViewController.swift */,
+				847EF4612D56C02D00D525C5 /* AddNewCityViewController.swift */,
+				848437022D6A1EE500CDD1A3 /* FiveDayViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		84821C3A2D6D621800713274 /* locationManager */ = {
+			isa = PBXGroup;
+			children = (
+				84821C382D6D5C5400713274 /* WeatherLocationManager.swift */,
+			);
+			path = locationManager;
+			sourceTree = "<group>";
+		};
+		84821C3E2D6D683A00713274 /* cityManager */ = {
+			isa = PBXGroup;
+			children = (
+				84821C3B2D6D664600713274 /* CityManager.swift */,
+				847EF45C2D55624C00D525C5 /* CityCell.swift */,
+			);
+			path = cityManager;
+			sourceTree = "<group>";
+		};
+		84821C402D6D686A00713274 /* UIManager */ = {
+			isa = PBXGroup;
+			children = (
+				84821C412D6D687E00713274 /* UIManager.swift */,
+			);
+			path = UIManager;
+			sourceTree = "<group>";
+		};
+		84821C432D6D695F00713274 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				84821C362D6D518500713274 /* collectionViewHandler.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847EF4342D5556D300D525C5 /* zeliz22-FinalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847EF44C2D5556DA00D525C5 /* Build configuration list for PBXNativeTarget "zeliz22-FinalProject" */;
+			buildPhases = (
+				847EF4312D5556D300D525C5 /* Sources */,
+				847EF4322D5556D300D525C5 /* Frameworks */,
+				847EF4332D5556D300D525C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zeliz22-FinalProject";
+			packageProductDependencies = (
+				84821C482D6D74CD00713274 /* Kingfisher */,
+			);
+			productName = "zeliz22-FinalProject";
+			productReference = 847EF4352D5556D300D525C5 /* zeliz22-FinalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847EF42D2D5556D300D525C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					847EF4342D5556D300D525C5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 847EF4302D5556D300D525C5 /* Build configuration list for PBXProject "zeliz22-FinalProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847EF42C2D5556D300D525C5;
+			packageReferences = (
+				84821C472D6D74CD00713274 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 847EF4362D5556D300D525C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847EF4342D5556D300D525C5 /* zeliz22-FinalProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847EF4332D5556D300D525C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EF4482D5556DA00D525C5 /* LaunchScreen.storyboard in Resources */,
+				847EF4452D5556DA00D525C5 /* Assets.xcassets in Resources */,
+				847EF4402D5556D300D525C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847EF4312D5556D300D525C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847EF4622D56C02D00D525C5 /* AddNewCityViewController.swift in Sources */,
+				847EF43D2D5556D300D525C5 /* ViewController.swift in Sources */,
+				847EF4432D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodeld in Sources */,
+				847EF4392D5556D300D525C5 /* AppDelegate.swift in Sources */,
+				847EF43B2D5556D300D525C5 /* SceneDelegate.swift in Sources */,
+				84821C422D6D687E00713274 /* UIManager.swift in Sources */,
+				848437052D6B8FEB00CDD1A3 /* ErrorViewController.swift in Sources */,
+				847EF45A2D55594000D525C5 /* City+CoreDataProperties.swift in Sources */,
+				847EF4602D56A49300D525C5 /* PagingFlowLayout.swift in Sources */,
+				84821C3C2D6D664600713274 /* CityManager.swift in Sources */,
+				84821C392D6D5C5400713274 /* WeatherLocationManager.swift in Sources */,
+				847EF45D2D55624C00D525C5 /* CityCell.swift in Sources */,
+				847EF4592D55594000D525C5 /* City+CoreDataClass.swift in Sources */,
+				848437032D6A1EE500CDD1A3 /* FiveDayViewController.swift in Sources */,
+				84821C372D6D518500713274 /* collectionViewHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		847EF43E2D5556D300D525C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847EF43F2D5556D300D525C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847EF4462D5556DA00D525C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847EF4472D5556DA00D525C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847EF44A2D5556DA00D525C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847EF44B2D5556DA00D525C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847EF44D2D5556DA00D525C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeliz22-FinalProject/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.zeliz22-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847EF44E2D5556DA00D525C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "zeliz22-FinalProject/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.zeliz22-FinalProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847EF4302D5556D300D525C5 /* Build configuration list for PBXProject "zeliz22-FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EF44A2D5556DA00D525C5 /* Debug */,
+				847EF44B2D5556DA00D525C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847EF44C2D5556DA00D525C5 /* Build configuration list for PBXNativeTarget "zeliz22-FinalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847EF44D2D5556DA00D525C5 /* Debug */,
+				847EF44E2D5556DA00D525C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84821C472D6D74CD00713274 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84821C482D6D74CD00713274 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84821C472D6D74CD00713274 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		847EF4412D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847EF4422D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodel */,
+			);
+			currentVersion = 847EF4422D5556D300D525C5 /* zeliz22_FinalProject.xcdatamodel */;
+			path = zeliz22_FinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 847EF42D2D5556D300D525C5 /* Project object */;
+}
